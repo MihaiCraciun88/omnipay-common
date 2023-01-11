@@ -1,5 +1,5 @@
 {
-  "name": "paytic/omnipay-common",
+  "name": "paytic/omnipay-common-php8",
   "type": "library",
   "license": "MIT",
   "description": "Common classes for drivers extending ThePhpLeague Omnipay multi-payment processing library",
@@ -8,6 +8,9 @@
     "pay",
     "payment"
   ],
+  "replace": {
+    "paytic/omnipay-common": "3.13"
+  },
   "homepage": "https://github.com/paytic/omnipay-common",
   "authors": [
     {
